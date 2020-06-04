@@ -22,7 +22,7 @@ or for debugging message
 
 Access:
 Suppose you are running fusetest and ningx on server.example.com, access
-http://server.example.com/mnt/BigBuckBunny-Full-web.mp4
+http://server.example.com/mnt/BigBuckBunny-Full.mp4
 with a web browser.
 Seek the video until it freezes (just don't let it play).
 If the video freezes, that's the sign of the nginx/sendfile issue.
