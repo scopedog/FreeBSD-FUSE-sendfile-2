@@ -237,9 +237,12 @@ FuseRead(const char *path, char *data, size_t size, off_t offset,
 	ssize = pread(fd, data, size, offset);
 	ssize = pread(fd, data, size, offset);
 	ssize = pread(fd, data, size, offset);
-
-	// Sleep
 	usleep(50000);
+	ssize = pread(fd, data, size, offset);
+	ssize = pread(fd, data, size, offset);
+	ssize = pread(fd, data, size, offset);
+	ssize = pread(fd, data, size, offset);
+	ssize = pread(fd, data, size, offset);
 
 	return (int)ssize;
 }
